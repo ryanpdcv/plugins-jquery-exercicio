@@ -44,7 +44,7 @@ $(document).ready(function () {
             form.reset();
         },
         invalidHandler: function (form, validator) {
-            let camposVazios = validator.numberofInvalids();
+            let camposVazios = validator.numberOfInvalids();
             if (camposVazios){
             alert("Por favor, preencha os campos para prosseguir com a compra!")
         };
